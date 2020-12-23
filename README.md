@@ -11,6 +11,7 @@ Specs + changelog + EFI folder (if you need an example or want to use it with si
 
 ## Software
 OpenCore 0.6.3
+
 macOS Big Sur 11.1
 
 ## Installation
@@ -18,9 +19,13 @@ Went smooth af, followed the usual [guide](https://dortania.github.io/OpenCore-I
 
 ## Performance
 Subjective: as fast as it could ever get
+
 Geekbench 5: [1004/5118](https://dortania.github.io/OpenCore-Install-Guide/)
+
 Geekbench 5 Compute: [19705](https://dortania.github.io/OpenCore-Install-Guide/)
+
 Blackmagic Disk Speed Test: 1800 write/2500 read
+
 Cinebench R23: 1017 single-core/5674 multi-core
 
 ## What works 
