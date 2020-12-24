@@ -2,16 +2,17 @@
 Specs + changelog + EFI folder (if you need an example or want to use it with similar hardware)
 
 ## Hardware
-- Gigabyte B360M H
-- Intel Core i5-8400
-- 2x16 GB DDR4-2666 XMP (Corsair Vengeance)
-- Samsung 960 Evo 500 GB NVMe storage
-- AMD Radeon RX 460 4 GB (Gigabyte)
-- Broadcom BCM94360CD (Fenvi T919) 
+- Board: Gigabyte B360M H
+- CPU: Intel Core i5-8400
+- RAM: 2x16 GB DDR4-2666 XMP (Corsair Vengeance)
+- Storage: Samsung 960 Evo 500 GB NVMe
+- GPU: AMD Radeon RX 460 4 GB (Gigabyte)
+- Wireless: Broadcom BCM94360CD (Fenvi T919) 
 
 ## Software
 - OpenCore 0.6.3
 - macOS Big Sur 11.1
+- USBMap.kext (please don't use mine)
 
 ## Installation
 Went smooth af, followed the usual [guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -28,11 +29,11 @@ Everything except...
 
 ## What doesn't / to-do list
 - [ ] Fix audio layout
-- [ ] Write a USB map
 - [ ] Upgrade OpenCore to 0.6.4
-- [ ] Fix key mapping for my keyboard
 - [ ] Fix DRM with `shikigva=80`
 - [ ] Apply other post-install tweaks
+- [x] USB map written
+- [x] Key mapping fixed (macOS issue)
 
 ## Backstory of this build
 I had an iMac 5K (Late 2015) in top-of-the-line-but-not-custom configuration: i5-6600, 16 GB DDR3-1866, Radeon R9 M395 2 GB, 2TB Fusion Drive (128 GB flash & 2 TB HDD).
