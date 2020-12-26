@@ -12,7 +12,6 @@ Specs + changelog + EFI folder (if you need an example or want to use it with si
 ## Software
 - OpenCore 0.6.3
 - macOS Big Sur 11.1
-- USBMap.kext (please don't use mine)
 
 ## Installation
 Went smooth af, followed the usual [guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -25,12 +24,12 @@ Went smooth af, followed the usual [guide](https://dortania.github.io/OpenCore-I
 - Cinebench R23: 1017 single-core/5674 multi-core
 
 ## What works 
-Everything except...
+Almost everything, including Unlock with Apple Watch, 4K/60/10 bit DisplayPort output, sleep/wake, Wi-Fi and Bluetooth, AirDrop, Continuity, FileVault etc.
 
 ## What doesn't / to-do list
-- [ ] Fix audio layout
+- [ ] Pick the right audio layout
 - [ ] Upgrade OpenCore to 0.6.4
-- [ ] Fix DRM with `shikigva=80`
+- [ ] Fix Apple TV DRM with `shikigva=80`
 - [ ] Apply other post-install tweaks
 - [x] USB map written
 - [x] Key mapping fixed (macOS issue)
@@ -46,6 +45,6 @@ So I've sold it... and built a Hackintosh instead! I was aiming at 2x performanc
 
 ## Acknowledgments
 * Apple for macOS
-* Apple for making insanely expensive but cool Intel machines that plead to be hackintoshed
+* Apple for making insanely expensive but cool Intel machines that are almost impossible to upgrade or repair (or afford, for that matter)
 * Dorthania for the guides
 * Hackintosh community for everything
