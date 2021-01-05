@@ -6,11 +6,11 @@ Specs + changelog + EFI folder (if you need an example or want to use it with si
 - CPU: Intel Core i5-8400
 - RAM: 2x16 GB DDR4-2666 XMP (Corsair Vengeance)
 - Storage: Samsung 960 Evo 500 GB NVMe
-- GPU: AMD Radeon RX 460 4 GB (Gigabyte)
+- GPU: AMD Radeon RX 560 4 GB (MSI ITX AERO)
 - Wireless: Broadcom BCM94360CD (Fenvi T919) 
 
 ## Software
-- OpenCore 0.6.3
+- OpenCore 0.6.5
 - macOS Big Sur 11.1
 
 ## Installation
@@ -18,8 +18,8 @@ Went smooth af, followed the usual [guide](https://dortania.github.io/OpenCore-I
 
 ## Performance
 - Subjective: as fast as it could ever get
-- Geekbench 5: [1004/5118](https://dortania.github.io/OpenCore-Install-Guide/)
-- Geekbench 5 Compute: [19705](https://dortania.github.io/OpenCore-Install-Guide/)
+- Geekbench 5: [1004/5118](https://browser.geekbench.com/v5/cpu/5450060)
+- Geekbench 5 Compute: [22225](https://browser.geekbench.com/v5/compute/2179427)
 - Blackmagic Disk Speed Test: 1800 write/2500 read
 - Cinebench R23: 1017 single-core/5674 multi-core
 
@@ -28,11 +28,11 @@ Almost everything, including Unlock with Apple Watch, 4K/60/10 bit DisplayPort o
 
 ## What doesn't / to-do list
 - [ ] Pick the right audio layout
-- [ ] Upgrade OpenCore to 0.6.4
-- [ ] Fix Apple TV DRM with `shikigva=80`
-- [ ] Apply other post-install tweaks
-- [x] USB map written
-- [x] Key mapping fixed (macOS issue)
+- [ ] Fix HW-accelerated HEVC video playback 
+- [ ] Fix Apple TV DRM
+- [ ] Verify CFG Lock disabled in UEFI
+- [x] Apply other post-install tweaks
+- [x] Upgrade OpenCore to 0.6.5
 
 ## Backstory of this build
 I had an iMac 5K (Late 2015) in top-of-the-line-but-not-custom configuration: i5-6600, 16 GB DDR3-1866, Radeon R9 M395 2 GB, 2TB Fusion Drive (128 GB flash & 2 TB HDD).
