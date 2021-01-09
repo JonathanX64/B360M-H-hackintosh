@@ -24,15 +24,11 @@ Went smooth af, followed the usual [guide](https://dortania.github.io/OpenCore-I
 - Cinebench R23: 1017 single-core/5674 multi-core
 
 ## What works 
-Almost everything, including Unlock with Apple Watch, 4K/60/10 bit DisplayPort output, sleep/wake, Wi-Fi and Bluetooth, AirDrop, Continuity, FileVault etc.
+Almost everything, including Unlock with Apple Watch, 4K/60/10 bit DisplayPort output, analog audio, sleep/wake, Wi-Fi and Bluetooth, AirDrop, Continuity, FileVault etc.
 
 ## What doesn't / to-do list
-- [ ] Pick the right audio layout
-- [ ] Fix HW-accelerated HEVC video playback 
+- [ ] Pick the right audio layout (11?)
 - [ ] Fix Apple TV DRM
-- [ ] Verify CFG Lock disabled in UEFI
-- [x] Apply other post-install tweaks
-- [x] Upgrade OpenCore to 0.6.5
 
 ## Backstory of this build
 I had an iMac 5K (Late 2015) in top-of-the-line-but-not-custom configuration: i5-6600, 16 GB DDR3-1866, Radeon R9 M395 2 GB, 2TB Fusion Drive (128 GB flash & 2 TB HDD).
