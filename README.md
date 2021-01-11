@@ -1,5 +1,5 @@
 # My Hackintosh build
-Specs + changelog + EFI folder (if you need an example or want to use it with similar hardware)
+Specs + changelog + EFI folder (in case you need an example or want to use it with similar hardware)
 
 ## Hardware
 - Board: Gigabyte B360M H
