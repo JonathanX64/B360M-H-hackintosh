@@ -1,5 +1,7 @@
 # My Hackintosh build
-Specs + changelog + EFI folder (in case you need an example or want to use it with similar hardware)
+Specs + changelog + EFI folder (if you need an example or want to use it with similar hardware)
+
+I moved to a different motherboard now, and I will create new repository for it. This repo won't be updated anymore.
 
 ## Hardware
 - Board: Gigabyte B360M H
@@ -28,7 +30,11 @@ Almost everything, including Unlock with Apple Watch, 4K/60/10 bit DisplayPort o
 
 ## What doesn't / to-do list
 - [ ] Pick the right audio layout (11?)
-- [ ] Fix Apple TV DRM
+- [ ] Fix hardware DRM & wireless Sidecar
+
+## Quirks (and features :D)
+Motherboard has latest UEFI firmware, F15b
+CFG Lock option is present in UEFI, so no patching was required
 
 ## Backstory of this build
 I had an iMac 5K (Late 2015) in top-of-the-line-but-not-custom configuration: i5-6600, 16 GB DDR3-1866, Radeon R9 M395 2 GB, 2TB Fusion Drive (128 GB flash & 2 TB HDD).
